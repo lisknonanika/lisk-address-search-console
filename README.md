@@ -41,3 +41,10 @@ lisk-address-search-console 2 dog
 
 ## 検索を終了する
 コマンドプロンプトで ` Ctrlキー + Cキー ` を同時押し
+
+
+## ソースから実行する場合
+- ` git clone https://github.com/lisknonanika/lisk-address-search-console.git `
+- ` cd lisk-address-search-console `
+- ` npm i `
+- ` node index.js `

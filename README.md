@@ -1,6 +1,6 @@
 # lisk-address-search-console
 ## 使う準備
-- lisk-address-search-console.zipを好きな場所にダウンロード (例：D:\\) [Download](https://github.com/lisknonanika/lisk-address-search-console/releases/download/v1.0.0/lisk-address-search-console.zip)
+- [lisk-address-search-console.zip](https://github.com/lisknonanika/lisk-address-search-console/releases/download/v1.0.0/lisk-address-search-console.zip) を好きな場所にダウンロード (例：D:\\)
 - lisk-address-search-console.zipを展開
 - コマンドプロンプトを起動
 - コマンドプロンプトにlisk-address-search-console.exeをドラッグ＆ドロップ

@@ -58,7 +58,7 @@ const search = (_type, _word, _isContinue) => {
       if (!_isContinue) break;
     }
     _cnt += 1;
-    if (_cnt%100000===0) {
+    if (_cnt%10000===0) {
       let _ed = new Date();
       console.log(`-- Search: ${_cnt} (${(_ed-_st)/1000} sec.)`);
     }

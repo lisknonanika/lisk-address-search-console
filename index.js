@@ -37,11 +37,12 @@ const search = (_type, _word, _isContinue) => {
     return;
   }
 
+  let _cnt = 0;
+  const _st = new Date();
   while(true) {
     const passphrase = Mnemonic.generateMnemonic();
     const { address, publicKey } = cryptography.getAddressAndPublicKeyFromPassphrase(passphrase);
     const addressBip32 = cryptography.getBase32AddressFromAddress(address);
-  
     if ((_type==="0" && addressBip32.startsWith(`lsk${_word.toLowerCase()}`)) ||
         (_type==="1" && addressBip32.endsWith(_word.toLowerCase())) ||
         (_type==="2" && addressBip32.indexOf(_word.toLowerCase()) > 0)) {
@@ -55,6 +56,11 @@ const search = (_type, _word, _isContinue) => {
         }
       });
       if (!_isContinue) break;
+    }
+    _cnt += 1;
+    if (_cnt%100000===0) {
+      let _ed = new Date();
+      console.log(`-- Search: ${_cnt} (${(_ed-_st)/1000} sec.)`);
     }
   }
 }

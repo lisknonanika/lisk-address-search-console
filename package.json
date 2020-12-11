@@ -1,13 +1,24 @@
 {
   "name": "lisk-address-search-console",
   "version": "1.0.0",
-  "description": "",
+  "description": "- build/lisk-address-search-console.zipを好きな場所にダウンロード (例：D:\\\\)\r - lisk-address-search-console.zipを展開\r - コマンドプロンプトを起動\r - コマンドプロンプトにlisk-address-search-console.exeをドラッグ＆ドロップ",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@liskhq/lisk-cryptography": "^3.0.0",
+    "@liskhq/lisk-passphrase": "^3.0.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisknonanika/lisk-address-search-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisknonanika/lisk-address-search-console/issues"
+  },
+  "homepage": "https://github.com/lisknonanika/lisk-address-search-console#readme"
 }

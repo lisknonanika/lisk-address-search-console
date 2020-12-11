@@ -1,5 +1,5 @@
 # lisk-address-search-sonsole
-## つかいかた
+## 使う準備
 - build/lisk-address-search-console.zipを好きな場所にダウンロード (例：D:\\)
 - lisk-address-search-console.zipを展開
 - コマンドプロンプトを起動
@@ -38,3 +38,6 @@ lisk-address-search-console 2 dog 0
 または
 lisk-address-search-console 2 dog
 ```
+
+## 検索を終了する
+コマンドプロンプトで ` Ctrlキー + Cキー ` を同時押し

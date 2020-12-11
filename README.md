@@ -1,4 +1,4 @@
-# lisk-address-search-sonsole
+# lisk-address-search-console
 ## 使う準備
 - build/lisk-address-search-console.zipを好きな場所にダウンロード (例：D:\\)
 - lisk-address-search-console.zipを展開

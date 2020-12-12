@@ -31,7 +31,13 @@ const search = (_type, _word, _isContinue) => {
     return;
   }
 
-  if (!_word.match(/^[A-Za-z0-9]*$/)) {
+  if (/i|l|0|1/.test(_word.toLowerCase())) {
+    console.error("parameter error: [_word].");
+    console.error("*must not be includ \"i\", \"l\", \"0\", \"1\".");
+    return;
+  }
+
+  if (!/^[A-Za-z0-9]*$/.test(_word)) {
     console.error("parameter error: [_word].");
     console.error("*should be half-width alphanumeric.");
     return;
